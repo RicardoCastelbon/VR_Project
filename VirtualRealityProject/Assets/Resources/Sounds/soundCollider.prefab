@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &179460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 459986}
+  - 33: {fileID: 3338966}
+  - 136: {fileID: 13658850}
+  - 23: {fileID: 2399468}
+  - 114: {fileID: 11478982}
+  - 54: {fileID: 5436456}
+  - 82: {fileID: 8208410}
+  m_Layer: 0
+  m_Name: soundCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459986
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179460}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: -0.013, z: 2.945}
+  m_LocalScale: {x: 0.001, y: 2.03, z: 0.001}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2399468
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179460}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3338966
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179460}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5436456
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179460}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!82 &8208410
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179460}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11478982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3247dca6c9e3134b9f0ce7f0d73bdf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorManager: {fileID: 0}
+  audioDesk: {fileID: 8300000, guid: b82d696273f26cc409b7dd88131d1418, type: 3}
+  audioShelf: {fileID: 8300000, guid: a3a6aa463b48b0c458e7939b0b4359b7, type: 3}
+  audioArmChair: {fileID: 8300000, guid: e0be5247281067746a39d957651fae61, type: 3}
+  audioBook: {fileID: 8300000, guid: 8826cba5d5cba08458d334fb6c91f696, type: 3}
+  audioCan: {fileID: 8300000, guid: 6e6e47f4fdcf82f4bb8f01f87b491292, type: 3}
+  audioCarpet: {fileID: 8300000, guid: 6e3bfab97ff32614eab6940a64055a49, type: 3}
+  audioCeiling: {fileID: 8300000, guid: dd9fab87ab4ed314ca99307d10d99d31, type: 3}
+  audioChair: {fileID: 8300000, guid: a5734c4de4bb65042bf9e5f571fef2f9, type: 3}
+  audioCup: {fileID: 8300000, guid: e6d6f88cdaa4add49b576ff61f893963, type: 3}
+  audioCupboard: {fileID: 8300000, guid: 5a901535474aec84abf6d7dfaf913080, type: 3}
+  audioDoor: {fileID: 8300000, guid: 1361d505394f3d64f9633a7934bb21a7, type: 3}
+  audioFireExit: {fileID: 8300000, guid: 5df5738f20a471947b11fe24a08997f9, type: 3}
+  audioFloor: {fileID: 8300000, guid: 45919e09e81da5b46bf4c853a9e29571, type: 3}
+  audioHandle: {fileID: 8300000, guid: 6de59118fb852df4d8a753f60df4baab, type: 3}
+  audioLamp: {fileID: 8300000, guid: 8b12ec6ffb4d91244a4284811a8e7f0a, type: 3}
+  audioLaptop: {fileID: 8300000, guid: 7f4ff9bf43bfd12498ebd0d06dd76353, type: 3}
+  audioMap: {fileID: 8300000, guid: 61f81179ff8df014ba54966e608a1b66, type: 3}
+  audioMonitor: {fileID: 8300000, guid: 39d6f863e1d84a74eb0ba26630ae8415, type: 3}
+  audioNotebook: {fileID: 8300000, guid: c617ec0c28b2247458550050d8571553, type: 3}
+  audioPen: {fileID: 8300000, guid: c8ed4ea766f07f8469005b1665b539bb, type: 3}
+  audioPencil: {fileID: 8300000, guid: d63be4c00c756d5458c8205ba75387e6, type: 3}
+  audioPencilHolder: {fileID: 8300000, guid: 43b51a0cf01a23440aabfbb7b4296c1d, type: 3}
+  audioFan: {fileID: 8300000, guid: ca827689ac485794bb7c3dc398acd435, type: 3}
+  audioSofa: {fileID: 8300000, guid: 953ff51fa0bc9da4f8caff0d887db9a9, type: 3}
+  audioTV: {fileID: 8300000, guid: 51b9c3108c386a8458df5189701decc3, type: 3}
+  audioVase: {fileID: 8300000, guid: ba79e12c1dd384c49b7fe5b0613f8ed4, type: 3}
+  audioWall: {fileID: 8300000, guid: 175e623de98fc2e48963619f1b089d73, type: 3}
+  audioWindow: {fileID: 8300000, guid: 7478d9c93307ef24280f9440b08de6a8, type: 3}
+  audioDesk_SW: {fileID: 8300000, guid: 4719aab3a38bc3f49ae21fbcc1aa62c0, type: 3}
+  audioShelf_SW: {fileID: 8300000, guid: c527777b1ead4b846af772dfb46008ec, type: 3}
+  audioArmChair_SW: {fileID: 8300000, guid: bf682664fdab5ae46a9492685fe151c5, type: 3}
+  audioBook_SW: {fileID: 8300000, guid: 06d6ec8705dbb4246b62d54329584f31, type: 3}
+  audioCan_SW: {fileID: 8300000, guid: 581c54750fca4034f989582bccb05552, type: 3}
+  audioCarpet_SW: {fileID: 8300000, guid: 31f3ccb7526a9894aa7bb98508334522, type: 3}
+  audioCeiling_SW: {fileID: 8300000, guid: d95df70d379869c44864b36a8cbdfc95, type: 3}
+  audioChair_SW: {fileID: 8300000, guid: bbbc0817d778e764eb41bf774de7177c, type: 3}
+  audioCup_SW: {fileID: 8300000, guid: 87cb59c73954eac4887d6f849e133506, type: 3}
+  audioCupboard_SW: {fileID: 8300000, guid: ab60763e28884444d82efa75925c6535, type: 3}
+  audioDoor_SW: {fileID: 8300000, guid: 79e2db58fd8c9d9468ade3ae23e84526, type: 3}
+  audioFireExit_SW: {fileID: 8300000, guid: 84ddf97352e83fe4caf4194995241e94, type: 3}
+  audioFloor_SW: {fileID: 8300000, guid: c01f609b52c39f243a04da404e866821, type: 3}
+  audioHandle_SW: {fileID: 8300000, guid: c7f60484fd0b30f4ebecb65a3adab89d, type: 3}
+  audioLamp_SW: {fileID: 8300000, guid: f850223061fab50418e49a35aa3901fb, type: 3}
+  audioLaptop_SW: {fileID: 8300000, guid: 36c39f172ea53344ead82fdc89f955dc, type: 3}
+  audioMap_SW: {fileID: 8300000, guid: dd13bb80ba8bedf45be870971e9710cc, type: 3}
+  audioMonitor_SW: {fileID: 8300000, guid: 71caa8f826e9df144801d5bc9078a585, type: 3}
+  audioNotebook_SW: {fileID: 8300000, guid: 3d166caddc9c4ad40a9a52d124d302ec, type: 3}
+  audioPen_SW: {fileID: 8300000, guid: 339829a8fd26a1d47afac7cfd813ce8a, type: 3}
+  audioPencil_SW: {fileID: 8300000, guid: b2b01fc02f3143a498f30aa81a89a718, type: 3}
+  audioPencilHolder_SW: {fileID: 8300000, guid: e4615b59436a20848b61623b9494d2e7,
+    type: 3}
+  audioFan_SW: {fileID: 8300000, guid: 7a886b9d6f4f5064384159f9009f4df8, type: 3}
+  audioSofa_SW: {fileID: 8300000, guid: 11c851dcdad60824ea0abda27f9b33f5, type: 3}
+  audioTV_SW: {fileID: 8300000, guid: b18252f0704ba1e4396ab9ba1e245b74, type: 3}
+  audioVase_SW: {fileID: 8300000, guid: 6821ca17977985043a449a961061dd0f, type: 3}
+  audioWall_SW: {fileID: 8300000, guid: 8f1b08386236b53458cf5deadbaf7311, type: 3}
+  audioWindow_SW: {fileID: 8300000, guid: 8d075908728603b44996afb4121184b0, type: 3}
+  audioDesk_ES: {fileID: 0}
+  audioShelf_ES: {fileID: 0}
+  audioArmChair_ES: {fileID: 0}
+  audioBook_ES: {fileID: 0}
+  audioCan_ES: {fileID: 0}
+  audioCarpet_ES: {fileID: 0}
+  audioCeiling_ES: {fileID: 0}
+  audioChair_ES: {fileID: 0}
+  audioCup_ES: {fileID: 0}
+  audioCupboard_ES: {fileID: 0}
+  audioDoor_ES: {fileID: 0}
+  audioFireExit_ES: {fileID: 0}
+  audioFloor_ES: {fileID: 0}
+  audioHandle_ES: {fileID: 0}
+  audioLamp_ES: {fileID: 0}
+  audioLaptop_ES: {fileID: 0}
+  audioMap_ES: {fileID: 0}
+  audioMonitor_ES: {fileID: 0}
+  audioNotebook_ES: {fileID: 0}
+  audioPen_ES: {fileID: 0}
+  audioPencil_ES: {fileID: 0}
+  audioPencilHolder_ES: {fileID: 0}
+  audioFan_ES: {fileID: 0}
+  audioSofa_ES: {fileID: 0}
+  audioTV_ES: {fileID: 0}
+  audioVase_ES: {fileID: 0}
+  audioWall_ES: {fileID: 0}
+  audioWindow_ES: {fileID: 0}
+  click: {fileID: 8300000, guid: 9a209ac3623402e44b62cc36e373483a, type: 3}
+  source: {fileID: 8208410}
+  sourceClick: {fileID: 0}
+--- !u!136 &13658850
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 179460}
+  m_IsPrefabParent: 1
